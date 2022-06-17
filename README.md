@@ -8,14 +8,18 @@ This expo template uses redux, native base and typescript.
 - Use `npm` or `yarn`to install the dependencies
 - Development can start
 
-### Expo Web
+## Expo Web
 
 Expo Web support is working with this project.
 
-### Libraries
+## Libraries
 
 - Expo
 - TypeScript
 - Redux
-- Redux Toolki
+- Redux Toolkit
 - Native Base
+
+## License
+
+See [License](LICENSE.md)
