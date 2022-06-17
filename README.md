@@ -14,11 +14,11 @@ Expo Web support is working with this project.
 
 ## Libraries
 
-- Expo
-- TypeScript
-- Redux
-- Redux Toolkit
-- Native Base
+- [Expo](https://expo.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://redux.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Native Base](https://nativebase.io/)
 
 ## License
 
