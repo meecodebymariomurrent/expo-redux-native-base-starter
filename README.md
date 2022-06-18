@@ -5,7 +5,7 @@ This expo template uses redux, native base and typescript.
 ## Using the starter template
 
 - Clone the repository
-- Use `npm` or `yarn`to install the dependencies
+- Use `npm` or `yarn` to install the dependencies
 - Development can start
 
 ## Expo Web
