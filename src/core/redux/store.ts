@@ -1,13 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
-
 import { counterReducer } from './reducers/counterReducer'
-
-const store = configureStore({reducer});
-
 
 const reducer = {
     counter: counterReducer
 }
+
+const store = configureStore({reducer});
 
 export const configure = () => {
     return store;
