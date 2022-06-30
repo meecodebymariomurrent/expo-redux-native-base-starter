@@ -2,8 +2,8 @@ import { connect, ConnectedProps } from 'react-redux';
 import { Component, ReactNode } from 'react';
 import { Container, Button, Text } from 'native-base';
 import { TextStyle, ViewStyle } from 'react-native';
-import { countUp, resetCounter } from '../core/redux/actions/counterAction';
 import { RootState } from '../core/redux/store';
+import { countUp, resetCounter } from '../core/redux/reducers/counterReducer';
 
 class Home extends Component<CustomProps, State> {
 
