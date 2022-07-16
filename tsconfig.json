@@ -1,6 +1,37 @@
 {
-  "extends": "expo/tsconfig.base",
   "compilerOptions": {
-    "strict": true
-  }
+    "jsx": "react-native",
+    "target": "esnext",
+    "lib": [
+      "esnext"
+    ],
+    "baseUrl": ".",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    /* Strict Type-Checking Options */
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+  },
+  "types": ["react", "react-native"],
+  "extends": "expo/tsconfig.base",
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+  ]
 }
