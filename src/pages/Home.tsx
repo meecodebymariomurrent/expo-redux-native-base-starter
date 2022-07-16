@@ -40,9 +40,9 @@ const mapDispatchToProps = {
     dispatchResetCounter: resetCounter
 }
 
-const connector = connect<CustomProps>(mapStateToProps, mapDispatchToProps)(Home);
+const connector = connect<CustomProps>(mapStateToProps, mapDispatchToProps);
 
-export default connector;
+export default connector(Home);
 
 type OwnProps = {
     navigation: any;
